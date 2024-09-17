@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Película>      
+    <Pelicula buena = "si">
+        <Nombre>El señor de los anillos</Nombre>    
+        <Publicacion>Año 2001</Publicacion>
+        <Nota_Filmaffinity>8,0</Nota_Filmaffinity>
+    </Pelicula>
+    <Pelicula buena = "no">
+        <Nombre>Sharknado</Nombre>
+        <Publicacion>Año 2013</Publicacion>
+        <Nota_Filmaffinity>3,4</Nota_Filmaffinity>
+    </Pelicula>
+</Pelicula>
