@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formulario</title>
+</head>
+<body>
+    <!--todo formulario debe ir entre las etiquetas form-->
+    <form action="clasePHP.php">
+        <!--Dentro del form todos los campos que se enviaran al servidor-->
+        <label for="activar">Input type button</label>
+        <input type="button" value="Enviar">
+        <hr><br>
+        <!--checkbox-->
+        <label for="elegir">Input type checkbox: ¿Qué tapas quieres pedir?</label>
+        <input type="checkbox" name="elegir" id="" value="opc1">Tortilla
+        <input type="checkbox" name="elegir" id="" value="opc2">Croquetas
+        <input type="checkbox" name="elegir" id="" value="opc3">Salmorejo
+        <hr><br>
+        <!--radio-->
+        <label for="perfil">Input Type radios: Elige tu perfil</label>
+        <input type="radio" name="perfil" id="">Profesor
+        <input type="radio" name="perfil" id="">Estudiante
+        <hr><br>
+        <!--color-->
+        <label for="color">Input type color</label>
+        <input type="color" name="" id="" value="e66465">
+        <hr><br>
+        <!--fecha-->
+        <label for="fecha">campo tipo fecha</label>
+        <input type="date" name="" id="">
+        <input type="datetime-local" name="" id="">
+        <input type="month" name="mes" id="">
+        <hr><br>
+        <!--email-->
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="" required value="" id="">
+        <hr><br>
+        <!--tipo file-->
+        <label for="file">Ficheros para incluir entrega</label>
+        <input type="file" name="" id="">
+        <hr><br>
+        <!--campos ocultos-->
+        <label for="hidden">campos ocultos</label>
+        <input type="hidden" name="oculto" value="oculto">
+        <hr><br>
+        <!--Imágenes-->
+        <label for="image">Campos de imágenes</label>
+        <input type="image" src="images/small.jpg" alt="">
+        <hr><br>
+    </form>
+</body>
+</html>
