@@ -10,7 +10,7 @@
         <h1>Completa los siguientes campos para realizar el alta en martindiazbastida.x10.mx</h1>
     </header>
     <form action="">
-        <fieldset style="background-color: ;">
+        <fieldset style="background-color:#d59825 ;">
             <legend>Datos particulares</legend>
             <label for="username">Nombre</label>
             <input type="text" name="username" id="">
@@ -23,7 +23,7 @@
             <input type="email" name="email" id="">
             <br>
             <label for="DNI">DNI</label>
-            <input type="number" name="DNI" id="">
+            <input type="text" name="DNI" id="">
             <label for="telef">Teléfono</label>
             <input type="tel" name="telef" id="">
             <br>
@@ -45,6 +45,29 @@
                 <option value="4">Albacete</option>
             </select>
         </fieldset>
+        <br>
+        <fieldset style="background-color: #d46c23;">  
+            <legend>Datos adicionales</legend>
+            <label for="lista">Dispositivos electrónicos disponibles en el hogar</label>
+            <br>
+            <input type="checkbox" name="lista" id="">PC
+            <br>
+            <input type="checkbox" name="lista" id="">Tableta
+            <br>
+            <input type="checkbox" name="lista" id="">Móvil
+            <br>
+            <label for="estudios">Estudios completados</label>
+            <input type="text" name="estudios" id="">
+            <br>
+            <label for="ingles">Nivel de Inglés del 1 al 10</label>
+            <input type="range" name="ingles" id="" value="0" max="10" step="1">
+            <br>
+            <label for="editor">Editor de HTML favorito</label>
+            <input type="text" name="editor" id="">
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
     </form>
 </body>
 </html>
