@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos multimedia</title>
+</head>
+<body>
+    <h3>Elementos multimedia</h3>
+    <label for="audio">Audio local</label>
+    <br>
+    <audio src="multimedia/grid.mp3" controls>Tu controlador de soporte</audio>
+    <br><br>
+    <label for="audio">Audio web</label><br>
+    <audio src="https://cutt.ly/WRPO3hH" controls>Audio web</audio><br>
+    <h3>Elementos de vídeo</h3>
+    <label for="video">Elementos de vídeo</label><br>
+    <video src="multimedia/forthebirds.mp4" controls poster="multimedia/forthebirds.mp4">Contenido no soportado</video>
+    <br><br>
+    <label for="track">Vídeo con track</label><br>
+    <video src="multimedia/forthebirds.mp4" controls poster="multimedia/forthebirds.mp4" type ="video/mp4">Contenido no soportado
+    <track src="multimedia/forthebirds.vtt" kind="subtitles" srclang="en" label="English">
+    <track src="multimedia/forthebirds_es.vtt" kind="subtitles" srclang="es" label="Español" default>
+    </video><br><br>
+    <h3>Elemento imagen</h3>
+    <label for="img">Elemento imagen</label><br>
+    <img src="images/html5.png" alt="html5" onclick="alert('Hola Daw-Bil')"><br><br>
+    <hr>
+    <img src="images/logo-para-empresa.jpg" alt="" width="500" height="400" usemap="#workmap">
+    <map name="workmap">
+        <area shape="circle" coords="52,86,138,120" href="https://www.pepsi.es/" alt="computer">
+        <area shape="rect" coords="100,100,20" href="" alt="computer">
+    </map>
+</body>
+</html>
