@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad_2.16</title>
+</head>
+<body>
+    <header>
+        <h2 style="text-align: center;">Actvidad 2.16. Ejemplo de inclusión de vídeo con iframe/local y local con subtitulos</h2>
+    </header>
+    <p>Vídeo con iframe</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8hgNwjTLMRw?si=-R8UK-UVhRfMcoK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br><br>
+    <br><label for="video">Video local</label><br>
+    <video name="video" src="multimedia/pixar-lou.mp4" controls poster="multimedia/pixar-lou.png" type ="video/mp4" width="400" height="300"></video>
+    <br><label for="video">Video local con track</label><br>
+    <video src="multimedia/pixar-lou.mp4" controls poster="multimedia/pixar-lou.png" type ="video/mp4" width="400" height="300">
+    <track src="multimedia/pixar-lou_es.vtt" kind="subtitles" srclang="es" label="Spanish">
+    </video>
+
+</body>
+</html>
