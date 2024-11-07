@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrones</title>
+</head>
+<body>
+    <h3>Ejemplos de patrones</h3>
+    <form action="#" method="post">
+        <h5>Campo de usuario obligatorio entre 5 y 40 caracteres y solo permite mayúsculsa minúsculas y números</h5>
+        <label for="usuario"></label>
+        <input type="text" name="usuario" placeholder="usuario" minlength="5"         maxlength="40" pattern="[A-Za-z0-9]+">
+        <br>
+        <h5>Elige el model de Audi, solo válidos a1, a3, a5, a6, a7, a8</h5>
+        <label for="modelo">Modelo de Audi</label>
+        <input type="text" name="modelo" placeholder="indica-modelo" title="solo válidos a1, a2, a3, a4, a5, a6, a7, a8" pattern="(a|A)(1|3|5|6|7|8)" >
+        <br>
+        <h5>Código de país (3 letras)</h5>
+        <label for="countrycode">Código de país</label>
+        <input type="text" name="countrycode" placeholder="Código de 3 letras" title="Ejemplo: SPA" pattern="[A-Za-z]{3}">
+        <br>
+        <h5>Campo contraseña</h5>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" placeholder="********" title="8 o mas caracteres" pattern=".{8,}">
+        <br>
+        <h5>Campo tipo password de 8 o más caracteres con un número, una letra o al menos una letra mayuscula</h5>
+        <label for="contrasenya">Otra contraseña</label>
+        <input type="password" name="contrasenya" placeholder="*********" title="Al menos un número, una letra mayúscula y otra minúscula" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{8,}">
+        <br>
+        <h5>Email texto@texto.dominios</h5>
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correo" placeholder="email" title="Introduce tu email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+        <br>
+        <h5>Solo correos de educamadrid</h5>
+        <label for="educa">Correo educa</label>
+        <input type="email" name="educa" required title="Correo educa.madrid" placeholder="Correo educa.madrid" pattern="[a-z]+@educa.madrid.org$">
+        <br>
+        <h5>Teléfonos en formato XXX XXX XXXX</h5>
+        <label for="telefono"></label>
+        <input type="tel" name="telefono" pattern="d{3}-d{3}-d{4}" id="">
+        <br><hr>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
