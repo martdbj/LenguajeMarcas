@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente</title>
+    <style>
+        #grad1 {
+            height: 150px;
+            background-image: linear-gradient( steelblue, turquoise, violet, purple);
+        }
+        #grad2 {
+            height: 150px;
+            background-image: linear-gradient(to right, steelblue, turquoise, violet, purple);
+        }
+        #grad3 {
+            height: 150px;
+            background-image: linear-gradient(to bottom right, steelblue, turquoise, violet, purple);
+        }
+        #grad4 {
+            height: 150px;
+            background-image: repeating-linear-gradient(steelblue, turquoise 10%, violet 20%);
+        }
+        #grad5 {
+            height: 150px;
+            background-image: radial-gradient(steelblue, turquoise , violet, purple );
+        }
+        #grad6 {
+            height: 150px;
+            background-image: radial-gradient(steelblue 10%, turquoise 20%, violet 60%);
+        }
+        #grad7 {
+            height: 150px;
+            background-image: repeating-radial-gradient(steelblue 20%, turquoise 15%, violet 50%);
+        }
+    </style>
+</head>
+<body>
+    <p>Gradiente de arriba a abajo</p>
+    <div id="grad1"></div><br>
+    <p>Gradiente de izquierda a derecha</p>
+    <div id="grad2"></div><br>
+    <p>Gradiente diagonal</p>
+    <div id="grad3"></div><br>
+    <p>Repetir gradiente</p>
+    <div id="grad4"></div><br>
+    <p>Gradiente en circulo</p>
+    <div id="grad5"></div><br>
+    <div id="grad6"></div><br>
+    <div id="grad7"></div><br>
+
+
+</body>
+</html>

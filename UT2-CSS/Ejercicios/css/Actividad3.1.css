@@ -1,0 +1,22 @@
+#h1 {
+    color: blue;
+}
+#h2 {
+    color: green;
+}
+#h3 {
+    color: yellow;
+    font-style: italic;
+}
+#h4 {
+    background-color: tomato;
+}
+#h5 {
+    background-color: red;
+}
+#h6 {
+    background-color: blue;
+}
+#p {
+    text-align: center;
+}
