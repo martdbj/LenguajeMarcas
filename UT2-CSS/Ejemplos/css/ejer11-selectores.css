@@ -1,0 +1,42 @@
+/*selector universal*/
+* {
+    text-align: center;
+    /*para alinear*/
+    margin: 0 auto;
+}
+
+/*selector de elemento*/
+h1 {
+    color:rgb(92, 7, 250);
+    font-style: italic;
+}
+/*selector de identificador*/
+#introduccion {
+    border-style: dotted;
+    padding: 1em;
+}
+table {
+    font-size: 1.4em;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 20px
+}
+/*Selector de clase*/
+.positivo {
+    color: green;
+    font-weight: bolder;
+}
+.negativo {
+    color: red;
+    font-weight: bolder;
+}
+/*selector de atributos (con input type se seleccionara todo)*/
+input[type] {
+    background-color: rgb(176, 238, 171);
+}
+input[type = text] {
+    background-color: rgb(170, 166, 235);
+    font-weight: bolder;
+}
