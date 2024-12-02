@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinadores</title>
+    <style>
+        /*Resumen 
+        Cuando pongo A > B ---> B es hijo de A
+        A B ----> B es descendiente de A, no hace falta ser hijo de B
+        A ~ B ----> hermanos 
+        A + B ---> hermanos que estan mas cerca en el código
+        */
+        /*elementos <p< hijos de elementos <div> color azul*/
+    div > p {
+        color: blue;
+    }
+    div p {
+        color:red;
+    }
+    div ~ p {
+        color: green;
+    }
+    div + p {
+        color: purple;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Párrafo dentro de un elemento div</p>
+        <span><p>H3 dentro de span dentro de div</p></span>
+    </div>
+    <p>Otro párrafo</p>
+    <p>El último párrafo</p>
+</body>
+</html>
