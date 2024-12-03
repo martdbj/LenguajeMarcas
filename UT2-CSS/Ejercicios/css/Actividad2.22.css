@@ -1,9 +1,63 @@
+
 table {
     border-collapse: collapse;
 }
 td {
     border: 1px solid black;
 }
-tr + td {
+.images {
+    background-color: blue;
+    text-align: center; 
+}
+#imposible {
+    background-color: white;
+}
+.fcolumn {
     background-color: red;
+    color: white;
+    padding: auto;
+    width: 20px;
+    text-align: center; 
+}
+.capacidad td:nth-child(n+2) {
+    background-color: grey;
+    font-size: 2em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;   
+    width: 10px;    
+}
+.colores td:nth-child(n+5) {
+    background-color: blue;
+    color: red;
+}
+.colores td:nth-child(n+3):nth-child(-n+3){
+    color: red;
+}
+.colores td:nth-child(n+2):nth-child(-n+4):nth-child(even) {
+    text-align: center;
+    font-weight: bolder;
+}
+.pantalla td:nth-child(n+2) {
+    background-color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+.carga {
+    font-weight: bolder;
+    text-align: center;
+}
+.carga td:nth-child(n+2):nth-child(-n+2){
+    padding: 60px;
+    font-weight: bolder;
+    background-color: blue;
+}
+table tr:last-child {
+    background-color: blue;
+    font-weight: bolder;
+    text-align: center;
+}
+.carga td:nth-child(n+3) {
+    background-color: yellow;
+    
 }
