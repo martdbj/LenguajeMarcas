@@ -5,7 +5,7 @@ table {
 td {
     border: 1px solid black;
 }
-.images {
+.images td:nth-child(n+2) {
     background-color: blue;
     text-align: center; 
 }
@@ -25,7 +25,7 @@ td {
     padding-bottom: 20px;
     padding-top: 20px;
     text-align: center;   
-    width: 10px;    
+    width: 10px;
 }
 .colores td:nth-child(n+5) {
     background-color: blue;
@@ -34,7 +34,7 @@ td {
 .colores td:nth-child(n+3):nth-child(-n+3){
     color: red;
 }
-.colores td:nth-child(n+2):nth-child(-n+4):nth-child(even) {
+.colores td:nth-child(even) {
     text-align: center;
     font-weight: bolder;
 }
@@ -48,7 +48,7 @@ td {
     text-align: center;
 }
 .carga td:nth-child(n+2):nth-child(-n+2){
-    padding: 60px;
+    padding: 50px;
     font-weight: bolder;
     background-color: blue;
 }
