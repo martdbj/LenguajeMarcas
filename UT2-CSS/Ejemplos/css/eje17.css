@@ -1,0 +1,42 @@
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color:yellowgreen;
+    text-decoration: dotted;
+}
+/*primer elemento de li en gris*/
+li:first-child {
+    background-color: grey;
+}
+/*del primer grupo de li el útlimo li en azul*/
+ul:first-of-type > li:last-child {
+    background-color: blue;
+}
+/* ultimo grupo de ul poner un marco*/
+ul:last-of-type {
+    border: 1px solid black;
+}
+/*2.2 naranja*/
+ul:nth-of-type(2) > li:nth-of-type(2) {
+    color: orange;
+}
+/*primera letra en naranja primera linea en gris*/
+p::first-letter {
+    font-size: 2em;
+    color: orange;
+}
+p::first-line {
+    font-size: 1.2em;
+    color: goldenrod;
+}
+/*que escriba la palabra fin al final de cada parrafo*/
+p::after {
+    content: " FIN";
+    border: 1px solid green;
+    color:brown;
+}

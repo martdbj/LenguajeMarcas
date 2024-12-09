@@ -1,0 +1,33 @@
+/*Todos los elementos dark red*/
+h2 {
+    color: darkred;
+}
+/*Prmer h2 en color dark salmon*/
+body > h2 {
+    color: darksalmon;
+}
+/*Último h2 color darkseagreen*/
+div:last-of-type > article:last-of-type > h2 {
+    color: darkseagreen;
+}
+/*Elemento principla en color firebreak*/
+#principal {
+    color: firebrick;
+}
+
+/*los h2 descendientes de principal*/
+#principal h2 {
+    color: darkslategray
+}
+/*artículos color darkturquoise*/
+.articulo {
+    color:darkturquoise;
+}
+/*los h2 hijos de artiuclo darkviolet*/
+.articulo h2 {
+    color:darkviolet
+}
+/*en secundario tu ultimo articulo deepblack*/
+#secundario > article:last-of-type {
+    color: deeppink;
+}
