@@ -1,0 +1,33 @@
+tr:first-of-type {
+    color:teal;
+}
+tr:nth-of-type(2) {
+    color: red;
+}
+tr:nth-of-type(3) {
+    color: blue;
+}
+tr:nth-of-type(4) {
+    color: orange;
+}
+tr:nth-of-type(5) {
+    color: purple;
+}
+tr:nth-of-type(6) {
+    color: olive;
+}
+tr:nth-of-type(7) {
+    color:fuchsia;
+}
+tr:last-of-type {
+    color:green;
+}
+tr > td:nth-of-type(2) {
+    background-color: red;
+}
+tr > td:nth-of-type(3) {
+    background-color: green;
+}
+tr > td:last-of-type {
+    background-color: blue;
+}
