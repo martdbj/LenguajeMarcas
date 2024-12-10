@@ -1,0 +1,26 @@
+.contenedor {
+    color: white;
+    font-size: 1.2em;
+    padding: 5px;
+}
+#contenedor1 {
+    background-color: red;
+}
+#contenedor2 {
+    background-color: green;
+}
+#contenedor3 {
+    background-color: blue;
+}
+#contenedor4 {
+    background-color: red;
+    float: left;
+}
+#contenedor5 {
+    background-color: green;
+    float: right;
+}
+#contenedor6 {
+    background-color: blue;
+    float: right;
+}

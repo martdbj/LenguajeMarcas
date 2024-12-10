@@ -1,0 +1,12 @@
+div div {
+    background-color: greenyellow;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+}
+#divGrid {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color: yellow;
+    height: 100px;
+}

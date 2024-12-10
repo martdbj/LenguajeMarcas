@@ -1,0 +1,31 @@
+#izq {
+    float: right;
+    border: 3px dotted black;
+    background-color: gray;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+#der {
+    float: left;
+    border: 3px dotted black;
+    background-color: gray;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#parrafo {
+    padding: 60px;
+    text-align: center;
+    margin: 40px;
+}
+#foot {
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    left: 0%;
+}

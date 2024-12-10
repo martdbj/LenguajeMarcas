@@ -4,3 +4,28 @@
     background-color: turquoise;
     height: 100px;
 }
+/*div hijos de otro div*/
+div div {
+    background-color: greenyellow;
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+}
+#divFlex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: turquoise;
+    height: 100px;
+}
+#divFlex3 {
+    display: flex;
+    flex-direction: column;
+    background-color: turquoise;
+    height: 100px;
+}
+#divFlex4 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: turquoise;
+    height: 100px;
+}
