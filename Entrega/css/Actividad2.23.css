@@ -1,0 +1,39 @@
+#name {
+    color: darkgoldenrod;
+    font-family: Calibri;
+
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+    border-color: black;
+}
+tr:nth-child(3) th:nth-child(2) {
+    background-color: yellow;
+}
+tr:nth-child(1) th::first-letter {
+    font-size: 2em;
+}
+tr:nth-child(1) th {
+    font-size: 1.1em;
+}
+td:first-child {
+    background-color: green;
+}
+#email {
+    padding: 10px;
+    padding-right: 15px;
+    width: 170px;
+    border: 1px solid red;
+    background-color: transparent;
+}
+label span {
+    color: red;
+}
+caption {
+    color: red;
+    font-weight: bolder;
+}
+#home {
+    float: right;
+}
