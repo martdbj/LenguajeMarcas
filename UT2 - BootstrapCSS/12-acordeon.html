@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ejemplo de acordeón</h1>
+        <p>Utiliza el elemento <code>data-bs-parent</code> para ocultar los elementos</p>
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapseUno" class="btn" data-bs-toggle="collapse">
+                        Paginas de educación
+                    </a>
+                </div> <!--Fin del div card-header-->
+                <div id="collapseUno" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="" target="_blank">educamadrid</a></li>
+                            <li><a href="https://todofp.es/" target="_blank">todofp</a></li>
+                            <li><a href="https://piobaroja/"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Fin del div card-->
+        </div>
+        <!--Segundo-->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <a href="#collapseDos" class="btn" data-bs-toggle="collapse">
+                        Paginas de educación
+                    </a>
+                </div> <!--Fin del div card-header-->
+                <div id="collapseDos" class="collapse show" data-bs-parent="#accordion">
+                    <div class="card-body">
+                        <ul>
+                            <li><a href="" target="_blank">educamadrid</a></li>
+                            <li><a href="https://todofp.es/" target="_blank">todofp</a></li>
+                            <li><a href="https://piobaroja/"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--Fin del div card-->
+        </div>
+    </div> <!--Fin del div container-->
+
+</body>
+</html>
