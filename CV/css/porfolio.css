@@ -1,0 +1,18 @@
+#imageandcv {
+    margin: 0px 2% 0px 0px;
+}
+#cv {
+    margin-left: 3px;
+}
+#cardbody {
+    margin-left: 13%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+filter: invert();
+}
+
+#skills {
+    margin-left: -50px;
+    text-align: center;
+}
