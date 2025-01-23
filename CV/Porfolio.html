@@ -18,7 +18,8 @@
                     <div class="float-start float-start " id="imageandcv">
                         <img src="images/IMG_20241017_174220.jpg" alt="profile" class="rounded-circle" width="130px">
                         <br>
-                        <a href="images/CVMartínDíazBastida2 (2) (3)-1.png" target="_blank" class="btn btn-outline-warning mt-2" id="cv">Mi curriculum</a>
+                        <a href="images/CVMartínDíazBastida2 (2) (3)-1.png" target="_blank"
+                            class="btn btn-outline-warning mt-2" id="cv">Mi curriculum</a>
                     </div>
                     <header>
                         <h1>Martín Díaz Bastida </h1>
@@ -32,36 +33,50 @@
                                     Oficial de idiomas).</b></p>
                     </div> <!--Fin text-dark-->
                 </div> <!--Fin div container-->
-                <div class="container m-5 mt-5  pt-3 bg-secondary rounded">
-                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                        <h2 class="text-warning">Mis proyectos</h2>
-                        <!--Indicadores-->
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-                        </div>
-                        <!--carousel-->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/image.png" alt="fondo" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/Screenshot 2025-01-20 203525.png" alt="fondo" class="d-block w-100">
-                            </div>
-                        </div><!--Fin carousel-inner-->
-                        <!--BOTONES-->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
+                <div class="container m-5 mt-5 pb-3 pt-3 bg-secondary rounded">
+                    <div>
+                        <button class="btn btn-primary d-block" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasMenus">
+                            Más Proyectos
                         </button>
+                        <div class="offcanvas offcanvas-start navbar-light bg-light" id="offcanvasMenus"
+                            style="width: 300px;">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+                                <img src="images/clickhere.png" class="img-fluid w-25" alt="logo">
+                            </a>
+                            <button type="button" class="btn-close float-end text-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
 
-                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div><!--Fin div demo-->
+                            <!--Mis enlaces-->
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="projects/6-tablas.html" target="destino" 
+                                        class="nav-link px-4">Tablas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="projects/7-tablasColores.html" target="destino"
+                                        class="nav-link px-4">Tablas pero de colores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="projects/8-images.html" target="destino"
+                                        class="nav-link px-4">Imágenes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="projects/9-botones.html" target="destino"
+                                        class="nav-link px-4">Botones</a>
+                                </li>
+                            </ul>
+                        </div> <!--Fin div offcanvas-->
+                    </div>
+                    <div id="contenido">
+                        <iframe src="projects/9-spinner.html" width="1223px" height="400px" name="destino" scrolling="yes" id="marco"></iframe>
+                    </div>
+                    
+                    
+                    
                 </div>
             </div> <!--Fin col 9-->
-            <div class="col-4" >
+            <div class="col-4">
                 <div class="container m-4 mt-5 p-2 pt-3 pb-4 rounded bg-dark container-fluid" id="skills">
                     <h2 id="hablidades" class="text-warning">Mis habilidades</h2>
                     <br>
