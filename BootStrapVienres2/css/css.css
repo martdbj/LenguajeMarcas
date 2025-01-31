@@ -1,0 +1,35 @@
+#DatosCliente {
+    justify-content: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    overflow-x: hidden;
+}
+
+#quienesSomos {
+    justify-content: center;
+}
+
+#footer-media {
+    justify-content: center;
+}
+
+.botonesFooter {
+    width: 100%;
+    outline: none;
+    border: 0;
+    text-align: center;
+}
+
+.enlacesComunidad {
+    list-style: none;
+    display: inline-flex;
+}
+
+#listaComunidad {
+    list-style-type:circle;
+}
