@@ -82,6 +82,8 @@
                     </select>
                     <input type="text" name="cp" id="cp" required placeholder="Ingrese su número de teléfono"
                         class="form-control" pattern="[0-9]{6,11}">
+                    <div class="valid-feedback">Formato correcto</div>
+                    <div class="invalid-feedback">No cumple el formato</div>
                 </div>
                 <br>
                 <button type="submit" class="btn btn-success mt-4">Continuar</button>
@@ -104,8 +106,12 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <ul id="listaComunidad">
-                                        <li><p>Teléfono: 923 12 32 12</p></li>
-                                        <li><p>Ubicación: Calle ValdeOsos 14</p></li>
+                                        <li>
+                                            <p>Teléfono: 923 12 32 12</p>
+                                        </li>
+                                        <li>
+                                            <p>Ubicación: Calle ValdeOsos 14</p>
+                                        </li>
                                         <li><a href="https://facebook.com"
                                                 class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Facebook</a><img
                                                 src="media/facebookLogo.png" alt="" width="50px"></li>
