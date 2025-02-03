@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<?xml-stylesheet href="css/05-estilos.css" type="text/css"?>
+<ciudades>
+<ciudad id="1">
+<nombre>Nueva Delhi</nombre>
+<pais>India</pais>
+<continente>Ásia</continente>
+<ciudad id="2">
+<nombre>Nueva Delhi</nombre>
+<pais>India</pais>
+<continente>Ásia</continente>
+<ciudad id="3">
+<nombre>Nueva Delhi</nombre>
+<pais>India</pais>
+<continente>Ásia</continente>
+</ciudad>
+</ciudades>

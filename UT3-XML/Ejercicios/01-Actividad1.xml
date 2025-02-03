@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viajeTuristrico>
+    <clientes>
+        <cliente id="1">
+            <nombre>José</nombre>
+            <apellido>Gómez</apellido>
+        </cliente>
+        <cliente id="2">
+            <nombre>José Luis</nombre>
+            <apellido>Gómez</apellido>
+        </cliente>
+        <cliente id="3">
+            <nombre>José Juanjo</nombre>
+            <apellido>Gómez</apellido>
+        </cliente>
+    </clientes>
+    <viaje>
+        <origen>Madrid</origen>
+        <fechaInicio>02-3-1999</fechaInicio>
+        <fechaFin>02-3-2025</fechaFin>
+        <destinos>
+            <destino id="1">
+                <ciudad>Barcelona</ciudad>
+                <hotel>Trivago</hotel>
+                <numeroNoches>25 años</numeroNoches>
+            </destino>
+            <destino id="2">
+                <ciudad>Oporto</ciudad>
+                <hotel>Trivagao</hotel>
+                <numeroNoches>1 año</numeroNoches>
+            </destino>
+        </destinos>
+        <precioViaje>200000$</precioViaje>
+    </viaje>
+</viajeTuristrico>

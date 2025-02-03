@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selva>
+    <animal>
+        <elNombre>Milú</elNombre>
+        <tipo>Pantera</tipo>
+        <color>Negro</color>
+        <edad>12</edad>
+    </animal>
+</selva>

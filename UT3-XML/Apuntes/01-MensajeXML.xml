@@ -1,0 +1,14 @@
+<mensajeMartín>
+    <remitente>
+        <Nombre>Martín</Nombre>
+        <mail>martdbc@gmail.com</mail>
+    </remitente>
+    <destinatario>
+        <Nombre>Samuel</Nombre>
+        <mail>samuel@gmail.com</mail>
+    </destinatario>
+    <texto>
+        <Asunto>Viaje</Asunto>
+        <CuerpoMensaje>El viaje de fin de curso nos iremos a Alcobendas</CuerpoMensaje>
+    </texto>
+</mensajeMartín>
