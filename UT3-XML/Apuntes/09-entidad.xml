@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Una entdiad es como una constante en programación, un valor fijo que cambia su valor al visualizar-->
+<!DOCTYPE fichas [
+    <!ENTITY poblacion "Casarrubios, plaza-mayor 1">
+]>
+<fichas>
+    <ficha>
+        <empresa nombre="Tractores Toledo">
+            <direccion>&poblacion;</direccion>
+        </empresa>
+    </ficha>
+</fichas>

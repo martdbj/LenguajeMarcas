@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Hemos dicho que un dtd es un conjunto de regls qeu nos dicen lo que se puede y no se puede ponder en un XML
+    Escribe un xml y el dtd correspondiente que cumpla:
+    Elemento raíz <listaClientes>
+    Dentro de listaClientes  pueden haber uno o mas elementos <cliente>
+    Dentro de cliente etiquetas <nombre> y <cif>
+    Dentro de <cliente> aparece o no etiqueta <diasentrega> ?
+-->
+<?xml-model href="08-dtdClientes.dtd" type="application/xml-dtd"?>
+<listaClientes>
+    <cliente>
+        <nombre>Luis</nombre>
+        <cif>123131231313</cif>
+        <diasentrega>23</diasentrega>
+    </cliente>
+    <cliente>
+        <nombre>Luis</nombre>
+        <cif>123131231313</cif>
+    </cliente>
+</listaClientes>
