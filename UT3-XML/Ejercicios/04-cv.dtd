@@ -1,0 +1,7 @@
+<!ELEMENT cv  (nombre, direccion, telefono, email+, idiomas)>
+<!ELEMENT idiomas (idioma+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>

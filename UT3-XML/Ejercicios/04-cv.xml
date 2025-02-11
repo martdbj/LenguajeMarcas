@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="04-cv.dtd" type="application/xml-dtd"?>
+<cv>
+    <nombre>Martín</nombre>
+    <direccion>Calle Paco 3</direccion>
+    <telefono>231 123 123 123</telefono>
+    <email>mesa@gmail.com</email>
+    <idiomas>
+        <idioma>Español</idioma>
+        <idioma>Inglés</idioma>
+    </idiomas>
+</cv>
