@@ -2,23 +2,22 @@
 <?xml-model href="4-ejdtd.dtd" type="application/xml-dtd"?>
 <ficheros>
     <listaFacturas>
-        <factura>
-            <fecha></fecha>
+        <factura fecha="26-3-24">
             <emisor>
                 <nombre cif="123"></nombre>
             </emisor>
             <pagador>
-                <nombre></nombre>
+                <nombre cif="12"></nombre>
             </pagador>
             <importe></importe>
         </factura>
         <factura>
             <emisor>
-                <nombre></nombre>
+                <nombre cif="23"></nombre>
                 <volumenVentas></volumenVentas>
             </emisor>
             <pagador>
-                <nombre></nombre>
+                <nombre cif="23"></nombre>
             </pagador>
             <importe></importe>
         </factura>

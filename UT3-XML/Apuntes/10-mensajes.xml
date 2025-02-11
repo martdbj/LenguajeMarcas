@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="10-mensxsd.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- Otra forma dde definir las reglas de un xml es mediante un XML scheme que es mas restrictivo que un DTD, por ejemplo con los tipos de datos-->
+<mensaje>
+    <de>Arantxa</de>
+    <para>Clase</para>
+    <texto>El viernes no hay lenguaje de marcas a primera hora</texto>
+</mensaje>
