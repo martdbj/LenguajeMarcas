@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE receta [
+    <!ELEMENT receta (nombre, ingredientes, elaboracion)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ingredientes (ingrediente+)>
+    <!ELEMENT ingrediente (#PCDATA)>
+    <!ELEMENT elaboracion (#PCDATA)>
+
+    <!-- Ahora definimos los atributos-->
+    <!ATTLIST receta raciones CDATA #REQUIRED>
+    <!ATTLIST receta dificultad ( baja | media | alta) "media">
+    <!ATTLIST ingrediente cantidad CDATA #IMPLIED>
+    <!ATTLIST ingrediente unidad ( kg | punds ) "kg">
+]>
+<receta raciones="3" dificultad="media">
+    <nombre></nombre>
+    <ingredientes>
+    <ingrediente cantidad="23" unidad="kg"></ingrediente>
+    </ingredientes>                                                     
+    <elaboracion></elaboracion>
+</receta>
