@@ -4,12 +4,7 @@
     2º XML valido siguiendo las reglas concretas definidas en un DTD o XSD (de menos a mas restrictivo)
     al igual que css pude ser interno o externo
 -->
-<!DOCTYPE aviso [
-    <!ELEMENT aviso (de, para, mensaje)>
-    <!ELEMENT de (#PCDATA)>
-    <!ELEMENT para (#PCDATA)>
-    <!ELEMENT mensaje (#PCDATA)>
-]>
+
 <aviso>
     <de>Martín</de>
     <para>Felipe</para>
