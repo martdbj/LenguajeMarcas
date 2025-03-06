@@ -16,7 +16,6 @@
                 </xs:element>
                 <xs:element name="genero" type="tipoDeGenero"/>
             </xs:sequence>
-            
         </xs:complexType>
     </xs:element>
     <xs:simpleType name="tipoDeGenero">
