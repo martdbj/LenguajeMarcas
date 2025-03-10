@@ -3,6 +3,7 @@
         "NombreLenguaje": "Python",
         "AnyoCreacion": "1989",
         "NombreAutor": "Guido van Rossum",
-        "Compilado": "true"
+        "Compilado": "true",
+        "Mandatorio" 
     }
 }
