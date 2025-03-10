@@ -1,10 +1,14 @@
 
+import java.io.FileWriter;
+import java.nio.charset.StandardCharsets;
+
 import com.google.gson.JsonObject;
 
 
 public class EjemploJSON {
-    final String RUTA_FICH = "C:\\Users\\Usuario_Mañana\\Desktop\\Lenguaje_marcas-1\\tema4\\jsonMD";
+    
     public static void main(String[] args) {
+        final String RUTA_FICH = "C:\\Users\\Usuario_Mañana\\Desktop\\Lenguaje_marcas-1\\tema4\\jsonMD";
         JsonObject objectoJson1 = new JsonObject();
         objectoJson1.addProperty("coche", "rojo");
         objectoJson1.addProperty("temperatura", 22.5);
@@ -12,8 +16,7 @@ public class EjemploJSON {
 
         // lo volcamos a fichero
         try {
-            FileWriter file = new FileWriter(RUTA_FICH"miprimerJSon", StandardCharsets = UTF-8, f
-            alse);    
+            FileWriter file = new FileWriter(RUTA_FICH + "miprimerJSon.json", StandardCharsets:UTF_8 ,false);    
         } catch (Exception e) {
         }
         
