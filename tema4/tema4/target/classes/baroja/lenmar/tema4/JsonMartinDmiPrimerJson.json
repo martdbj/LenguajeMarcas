@@ -1,0 +1,14 @@
+{
+    "coche": "rojo",
+    "temperatura": 22.5,
+    "año": 2025,
+    "mensaje": {
+        "Hola": "DAW"
+    },
+    "meses": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril"
+    ]
+}
