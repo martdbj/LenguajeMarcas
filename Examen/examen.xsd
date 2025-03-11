@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alumno">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string"></xs:element>
+                <xs:element name="apellidos" type="xs:string"></xs:element>
+                <xs:element name="NIA" type="xs:integer"></xs:element>
+                <xs:element name="ciclo">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="modalidad" type="modalidad"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="curso">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                            <xs:minInclusive value="1"></xs:minInclusive>
+                            <xs:maxInclusive value="2"></xs:maxInclusive>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="cursos">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ASIR"></xs:enumeration>
+            <xs:enumeration value="DAM"></xs:enumeration>
+            <xs:enumeration value="DAW"></xs:enumeration>
+            <xs:enumeration value="SMR"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="modalidad">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="presencial"></xs:enumeration>
+            <xs:enumeration value="intensivo"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

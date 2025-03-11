@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="examen.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<alumno>
+    <nombre></nombre>
+    <apellidos></apellidos>
+    <NIA>123</NIA>
+    <ciclo modalidad="presencial">DAW</ciclo>
+    <curso>1</curso>
+</alumno>
+
+<!--Del elemnto ciclo no se como se pueden poner una modalidad con restriction y
+el contenido con restriccion a la vez-->
