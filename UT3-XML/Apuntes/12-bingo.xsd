@@ -4,7 +4,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="bola" maxOccurs="unbounded">
-                    <xs:complexType>
+                    <xs:complexType mixed="true">
                         <xs:attribute name="numero" type="numeroDeBola"/>
                     </xs:complexType>
                 </xs:element>

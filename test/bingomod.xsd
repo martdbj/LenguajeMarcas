@@ -23,5 +23,6 @@
             <xs:enumeration value="laliga"></xs:enumeration>
             <xs:enumeration value="premier"></xs:enumeration>
         </xs:restriction>
+
     </xs:simpleType>
 </xs:schema>
