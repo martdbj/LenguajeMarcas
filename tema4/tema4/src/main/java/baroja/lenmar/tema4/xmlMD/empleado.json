@@ -1,0 +1,10 @@
+{
+    "empleado": {
+        "numEmpleado": "12345",
+        "nombre": "Ada",
+        "apellido": "Lovelace",
+        "email": "ada@network.com",
+        "departamento": "Sistemas"
+    }
+}
+
