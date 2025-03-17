@@ -23,7 +23,6 @@ public class PersonaJson {
             System.out.println("Archivo Json generado correctamente");
         } catch (Exception e) {
         }
-        
-    }
     
+    }
 }
