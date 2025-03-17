@@ -15,7 +15,7 @@ public class BEmpleadoText {
             Gson gson = new Gson();
             Reader reader = Files.newBufferedReader(Paths.get(RUTA_FICH + "empleado.json"));
             //Convertir a objeto persona 
-            //vo leyendo uno a uno y por cada atributo y valor lo voy asignando a un new Persona();
+            //voy leyendo uno a uno y por cada atributo y valor lo voy asignando a un new Persona();
             //en vez de eso qeu es muy largo  
             List<AEmpleado> listaEmpleados = Arrays.asList(gson.fromJson(reader, AEmpleado[].class));
             System.out.println(listaEmpleados);
