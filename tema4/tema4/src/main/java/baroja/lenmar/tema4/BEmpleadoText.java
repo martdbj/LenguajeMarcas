@@ -22,4 +22,7 @@ public class BEmpleadoText {
         } catch (Exception e) {
         }
     }
+    private static Document fromEmpleadoToXML(Empleado objetoEntrada) {
+        
+    }
 }
