@@ -14,6 +14,8 @@ public class SocioTest {
 
             Socio objectEntrada = (Socio) um.unmarshal(new File(RUTA_FICH+"Socio.xml"));
             System.out.println(objectEntrada);
+
+            
         } catch (JAXBException jex) {
             jex.printStackTrace();
         }
