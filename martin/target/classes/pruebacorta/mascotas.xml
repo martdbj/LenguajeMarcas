@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mascotas>
+    <mascota>
+        <nombre>Wolfo</nombre>
+        <edad>5</edad>
+        <dueno>Me</dueno>
+        <raza>Pointer</raza>
+        <vacuna>Rabia</vacuna> 
+    </mascota>
+
+    <mascota>
+        <nombre>Gradisca</nombre>
+        <edad>14</edad>
+        <dueno>Me</dueno>
+        <raza>Yorkshire</raza>
+        <vacuna>Queso</vacuna> 
+    </mascota>
+</mascotas>
