@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="17-xsd.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<lugares>
+    <ciudad>
+        <pais>Italia</pais>
+        <nombre>Espala</nombre>
+    </ciudad>
+    
+</lugares>

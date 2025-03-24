@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="14-direccionXSD.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<!-- 
+Cada elemento tiene subElementos, hay 3 tipos
+    xs:sequence - Secuencia de elementos obligatorios, deben salir todos y en ese orden
+    xs:choice - hay varios pero solo debe salir uno
+    xs:all - opcionales, ni son obligatorios, ni el orden
+****Genera el xml y el xsd para almacenar las direcciones****
+Campo raíz dirección
+Campo puede ser particular o profesional (excluyente de tipo string)
+-->
+<direcciones>
+    <direccion>
+        <particular>Jorge Manrique</particular>
+    </direccion>
+    <direccion>
+        <profesional>Alberto Camus</profesional>
+    </direccion>
+</direcciones>

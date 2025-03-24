@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mod">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="test">
+                    <xs:complexType mixed="true">
+                        <xs:attribute name="nombre" type="nombre" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="test2" type="texto">
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="nombre">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="asado"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="texto">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="laliga"></xs:enumeration>
+            <xs:enumeration value="premier"></xs:enumeration>
+        </xs:restriction>
+
+    </xs:simpleType>
+</xs:schema>
