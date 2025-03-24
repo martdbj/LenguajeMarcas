@@ -1,4 +1,4 @@
-package pruebacorta;
+package preparacion;
 
 import java.io.File;
 
@@ -8,8 +8,9 @@ import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
 public class MascotaTest {
-    final static String RUTA_FICH = "D:\\Daw_github\\Lenguaje_marcas\\martin\\src\\main\\java\\pruebacorta";
+    final static String RUTA_FICH = "D:\\Daw_github\\Lenguaje_marcas\\testexamen\\src\\main\\java\\preparacion\\";
     static Mascotas mascotasClase = new Mascotas();
+
     public static void main(String[] args) {
         unmarshallingMascotas();
         marshallingMascotas();
