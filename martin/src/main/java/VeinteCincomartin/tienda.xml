@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <producto>
+        <nombre>Mesa</nombre>
+        <precio>20</precio>
+        <stock>3</stock>
+        <proveedor>Ahorramas</proveedor>
+    </producto>
+    <producto>
+        <nombre>Silla</nombre>
+        <precio>3</precio>
+        <stock>12</stock>
+        <proveedor>Mercadona</proveedor>
+    </producto>
+    <producto>
+        <nombre>Cortina</nombre>
+        <precio>100</precio>
+        <stock>1</stock>
+        <proveedor>Aldi</proveedor>
+    </producto>
+    <producto>
+        <nombre>Puerta</nombre>
+        <precio>24</precio>
+        <stock>234</stock>
+        <proveedor>Eroski</proveedor>
+    </producto>
+</tienda>
