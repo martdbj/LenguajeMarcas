@@ -1,4 +1,4 @@
-package practica.martin.DOM;
+package practica.martin.JSONtoXML;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

@@ -1,4 +1,4 @@
-package practica.martin.DOM;
+package practica.martin.JSONtoXML;
 
 public class Empleado {
     private String numEmpleado;

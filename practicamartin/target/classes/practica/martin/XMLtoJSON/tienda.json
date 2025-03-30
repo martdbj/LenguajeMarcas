@@ -1,0 +1,28 @@
+{
+  "tienda": [
+    {
+      "nombre": "Boligrafo rojo",
+      "precio": 1.5,
+      "stock": 200,
+      "proveedor": "BIC"
+    },
+    {
+      "nombre": "Cuaderno cuadricula",
+      "precio": 2.0,
+      "stock": 75,
+      "proveedor": "INRI"
+    },
+    {
+      "nombre": "Estuche",
+      "precio": 3.5,
+      "stock": 20,
+      "proveedor": "ChinaWorld"
+    },
+    {
+      "nombre": "Regla 20cm",
+      "precio": 2.25,
+      "stock": 15,
+      "proveedor": "ChinaWorld"
+    }
+  ]
+}

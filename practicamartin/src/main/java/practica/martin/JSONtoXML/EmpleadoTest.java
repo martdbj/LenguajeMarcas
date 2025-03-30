@@ -1,4 +1,4 @@
-package practica.martin.DOM;
+package practica.martin.JSONtoXML;
 
 import java.io.Reader;
 import java.nio.file.Files;
@@ -36,7 +36,6 @@ public class EmpleadoTest {
         } catch (Exception e) {
             // TODO: handle exception
         }
-        
         
     }
     private static void fromEmpleadoToXML (Empleado emplIn) throws TransformerFactoryConfigurationError, TransformerException {
