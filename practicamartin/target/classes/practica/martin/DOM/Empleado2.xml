@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleado>
+    <numEmpleado>12345</numEmpleado>
+    <nombre>José Luis</nombre>
+    <apellido>Villapalos</apellido>
+    <email>jvillapalos@example.org</email>
+    <departamento>Dept. comercial</departamento>
+</empleado>

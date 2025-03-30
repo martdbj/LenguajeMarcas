@@ -1,0 +1,65 @@
+package practica.martin.DOM;
+
+public class Empleado {
+    private String numEmpleado;
+    private String nombre;
+    private String apellido;
+    private String email;
+    private String departamento;
+    
+    public Empleado(String numEmpleado, String nombre, String apellido, String email, String departamento) {
+        this.numEmpleado = numEmpleado;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+        this.departamento = departamento;
+    }
+
+    public String getNumEmpleado() {
+        return numEmpleado;
+    }
+
+    public void setNumEmpleado(String numEmpleado) {
+        this.numEmpleado = numEmpleado;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getDepartamento() {
+        return departamento;
+    }
+
+    public void setDepartamento(String departamento) {
+        this.departamento = departamento;
+    }
+
+    @Override
+    public String toString() {
+        return "Empleado [numEmpleado=" + numEmpleado + ", nombre=" + nombre + ", apellido=" + apellido + ", email="
+                + email + ", departamento=" + departamento + "]";
+    }
+
+
+}
