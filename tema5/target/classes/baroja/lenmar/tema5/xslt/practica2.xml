@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="practica2.xsl" type="text/xsl"?>
+<peliculas>
+    <pelicula>
+        <titulo>Bailando bajo la lluvia</titulo>
+        <argumento>A</argumento>
+    </pelicula>
+    <pelicula>
+        <titulo>El gran dictador</titulo>
+        <argumento>B</argumento>
+    </pelicula>
+    <pelicula>
+        <titulo>Terminator</titulo>
+        <argumento>C</argumento>
+    </pelicula>
+</peliculas>

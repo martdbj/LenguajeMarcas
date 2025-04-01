@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio1.xsl" type="text/xsl"?>
+<vehiculos>
+    <vehiculo>
+        <marca>Ferrari</marca>
+        <web>www.ferrari.com</web>
+        <modelo>F8 Spider</modelo>
+        <precio>262000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Lamborghini</marca>
+        <web>www.lamborghini.com</web>
+        <modelo>Huracán EVO</modelo>
+        <precio>248295</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Porsche</marca>
+        <web>www.porsche.com</web>
+        <modelo>911 Turbo S</modelo>
+        <precio>230000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>McLaren</marca>
+        <web>www.mclaren.com</web>
+        <modelo>720S</modelo>
+        <precio>299000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Bugatti</marca>
+        <web>www.bugatti.com</web>
+        <modelo>Chiron</modelo>
+        <precio>3000000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Aston Martin</marca>
+        <web>www.astonmartin.com</web>
+        <modelo>DBS Superleggera</modelo>
+        <precio>316300</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Rolls-Royce</marca>
+        <web>www.rolls-roycemotorcars.com</web>
+        <modelo>Phantom</modelo>
+        <precio>460000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Maserati</marca>
+        <web>www.maserati.com</web>
+        <modelo>MC20</modelo>
+        <precio>212000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Koenigsegg</marca>
+        <web>www.koenigsegg.com</web>
+        <modelo>Jesko</modelo>
+        <precio>3000000</precio>
+    </vehiculo>
+    <vehiculo>
+        <marca>Bentley</marca>
+        <web>www.bentleymotors.com</web>
+        <modelo>Continental GT</modelo>
+        <precio>218350</precio>
+    </vehiculo>
+</vehiculos>

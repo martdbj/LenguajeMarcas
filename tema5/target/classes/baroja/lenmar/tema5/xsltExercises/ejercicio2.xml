@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receta nombre="Cocido">
+    <ingrediente nombre="garbanzos" />
+    <ingrediente nombre="morcillo de ternera" />
+    <ingrediente nombre="tocino salado" />
+    <ingrediente nombre="hueso de jamón" />
+    <ingrediente nombre="gallina" />
+    <ingrediente nombre="chorizo" />
+    <ingrediente nombre="morcilla" />
+    <ingrediente nombre="repollo" />
+    <ingrediente nombre="patatas" />
+    <ingrediente nombre="zanahorias" />
+    <ingrediente nombre="nabo" />
+    <ingrediente nombre="puerro" />
+    <ingrediente nombre="agua" />
+    <ingrediente nombre="sal" />
+</receta>
