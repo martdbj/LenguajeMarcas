@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio6_4.xsl" type="text/xsl"?>
+<invitacion>
+    <nombre>Romeo y Julieta</nombre>
+    <texto>Nos hace muchísima ilusión invitarte a nuestra boda, llama al telefono para confirmar tu asistencia</texto>
+    <FechaHora>20 de marzo a las 12:00</FechaHora>
+    <lugarCeremonia>Basilica de san Antonio</lugarCeremonia>
+    <lugarCelebracion>Hotel Sierra Leona</lugarCelebracion>
+    <telefonoConfirmacion>1231313</telefonoConfirmacion>
+</invitacion>

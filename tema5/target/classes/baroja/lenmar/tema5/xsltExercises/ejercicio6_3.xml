@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejercicio6_3.xsl" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<curriculum>
+    <nombre></nombre>
+    <telefono></telefono>
+    <correo></correo>
+    <formacion>
+        <titulo></titulo>
+        <centro></centro>
+        <obtencion></obtencion>
+    </formacion>
+    <experiencia>
+        <puesto></puesto>
+        <empresa></empresa>
+        <comienzo></comienzo>
+        <finalizacion></finalizacion>
+    </experiencia>
+</curriculum>
