@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="ejercicio6_3.xsl" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="ejercicio6_3.xsl" type="text/xsl"?>
 <curriculum>
-    <nombre></nombre>
-    <telefono></telefono>
-    <correo></correo>
+    <nombre>Martín Díaz Bastida</nombre>
+    <telefono>23423424</telefono>
+    <correo>pepe@gmail.com</correo>
     <formacion>
-        <titulo></titulo>
-        <centro></centro>
-        <obtencion></obtencion>
+        <titulo>Jugador de LOL</titulo>
+        <centro>Riot games</centro>
+        <obtencion>2020</obtencion>
     </formacion>
     <experiencia>
-        <puesto></puesto>
-        <empresa></empresa>
-        <comienzo></comienzo>
-        <finalizacion></finalizacion>
+        <puesto>Camarero</puesto>
+        <empresa>Macdonalds</empresa>
+        <comienzo>2020</comienzo>
+        <finalizacion>...</finalizacion>
     </experiencia>
 </curriculum>

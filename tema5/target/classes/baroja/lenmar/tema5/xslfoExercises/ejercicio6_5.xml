@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ejercicio6_5.xsl" type="text/xsl"?>
+<ciudades>
+    <ciudad>
+        <nombre>Madrid</nombre>
+        <habitantes>3500000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Málaga</nombre>
+        <habitantes>800000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Toledo</nombre>
+        <habitantes>50000</habitantes>
+    </ciudad>
+    <ciudad>
+        <nombre>Albarreal de Tajo</nombre>
+        <habitantes>762</habitantes>
+    </ciudad>
+</ciudades>
