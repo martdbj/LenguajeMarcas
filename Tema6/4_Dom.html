@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function cambiarTexto() {
+            document.getElementById("miTexto").innerHTML="Cambiado"
+        }
+        function cambiarColor() {
+            document.getElementById("miTexto").style.color="red"
+        }
+    </script>
+</head>
+<body>
+    <h1>Manipulación de DOM JavaScript</h1>
+    <p id="miTexto">Texto inicial</p>
+    <button type="button" onclick='cambiarTexto()'>Cambiar texto</button>
+    <button type="button" onclick='cambiarColor()'>Cambiar color a rojo</button>
+</body>
+</html>

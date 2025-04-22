@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //Ejemplos de variables 
+        var nombre = "Martín"; //Variable local o global
+        /*Si declaro una variable con var dentro de una función significa que solo es accesible dentro de esa función
+        Si la declaro en gloabal (fuera de la función), accesible en todo el código*/
+        let edad = 19;
+        /*Variables decalradsa con let solo tienen un alcance de bloque
+        Un bloque puede ser un if, un for o un conjunto de variaables*/
+        const pi = 3.1416; //Valor que no cambia 
+    </script>
+    <script>
+        //Eejemplos de funciones 
+        //1. Función tradicional 
+        function saludar(nombre) {
+            return `Hola, ${nombre}`;
+        }
+        let nombrePersona = "Martin";
+        let saludo = saludar(nombrePersona); //Llamada a la función
+        console.log(saludo)
+    </script>
+    <script>
+        //2. Funciones anónimas asignadas a variables 
+        const despedir = function(nombre) {
+            return `Adios, ${nombre}`;
+        }
+        let despedida = despedir(nombrePersona);
+        console.log(despedida);
+    </script>
+    <script>
+        //3. Función de flecha (arrow function)
+        const multiplicar = (a,b) => a*b;
+        let resultado = multiplicar(5,4);
+        console.log(resultado);
+    </script>
+</head>
+<body>
+    <h2>Ejemplo de variables y funciones en JavaScript</h2>
+    <h3>Para ver la consola pulsa F12</h3>
+</body>
+</html>
