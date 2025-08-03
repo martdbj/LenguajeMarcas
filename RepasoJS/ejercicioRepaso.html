@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function myfunction() {
+        document.getElementById("demo").innerHTML = "Párrafo Cambiado";
+    }
+    function multiplicacion() {
+        const multiplicar = (a,b) => a*b;
+        let resultado = multiplicar(4,5);
+        document.getElementById("multiplicacion").innerHTML = resultado;
+    }
+    function holaAdios() {
+        document.getElementById("hola").innerHTML = "Adios";
+    }
+</script>
+
+<body>
+    <h2>Prueba JavaScript en Cabecera (head) MARTÍN DÍAZ BASTIDA</h2>
+    
+    <FONT COLOR="red"><p id="demo">PÁRRAFO</p></FONT>
+
+    <button type="button" onclick="myfunction()">Pulsa aquí para cambiar</button>
+
+    <FONT COLOR="green"><p id="multiplicacion">El resultado de 4 x 5 es...</p></FONT>
+
+    <button type="button" onclick="multiplicacion()">Pulsa aquí para mostrar el resultado</button>
+    
+    <FONT COLOR="blue"><p id="hola">HOLA</p></FONT>
+
+    <button type="button" onclick="holaAdios()">Pulsa aquí para despedirse</button>
+</body>
+</html>
